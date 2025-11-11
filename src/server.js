@@ -30,6 +30,8 @@ app.get("/", (req, res) => {
         "POST /api/students": "Create a new student",
         "GET /api/students": "Get all students",
         "GET /api/students/:id": "Get a student by ID",
+        "PUT /api/students/:id": "Update a student by ID",
+        "DELETE /api/students/:id": "Delete a student by ID"
       },
     },
   });
